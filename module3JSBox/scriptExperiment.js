@@ -3,11 +3,10 @@ var growBtn=document.getElementById("button1");
 var blueBtn=document.getElementById("button2");
 var fadeBtn=document.getElementById("button3");
 var resetBtn=document.getElementById("button4");
-
+var popBtn=document.getElementById("button5");
 
 growBtn.addEventListener("click", function(){
       box.style.height="300px"
-      box.style.width="300px"
 })
 
 blueBtn.addEventListener("click", function(){
@@ -19,6 +18,15 @@ fadeBtn.addEventListener("click", function(){
 })
 
 resetBtn.addEventListener("click", function(){
-      box.style="height:150px; width:150px; background-color:orange; margin:25px"      
+      box.addEventListener("mouseover", function(){
+            box.style.boxShadow="2px 2px 2px grey"
+      })
 })
 
+// box.addEventListener("mouseover", function(){
+//       box.style.boxShadow="2px 2px 2px grey"
+// })
+
+box.addEventListener("mouseout", function(){
+      box.style.boxShadow=""
+})
