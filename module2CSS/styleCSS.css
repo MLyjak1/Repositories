@@ -1,0 +1,57 @@
+h1 {
+    text-align: center;
+}
+
+#text-red {
+    color: red;
+}
+
+#text-blue {
+    color: blue;
+}
+
+#text-green {
+    color: green;
+}
+
+#text-big {
+    font-size: 300%;
+}
+
+#text-tiny {
+    font-size: 50%;
+}
+
+#text-center {
+    display: block;
+    text-align: center;
+}
+
+#text-bold {
+    font-weight: bold;
+}
+
+#text-style {
+    font-family: cursive;
+}
+
+#text-combine {
+    font-size: 200%;
+    color: orange;
+    font-weight: bold;
+}
+
+.styledFont {
+    color: blueviolet;
+    font-weight: lighter;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    display: block;
+    text-align: right;
+}
+
+#styledImage {
+    border-width: 12pt;
+    border-color: darkgoldenrod;
+    border-style: groove;
+}
